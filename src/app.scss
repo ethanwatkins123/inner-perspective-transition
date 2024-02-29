@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.inner {
+  background-color: black;
+  .page {
+    background-color: #fff;
+    padding: 16px;
+  }
+  .slide {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+  }
+}
+
+.page {
+  height: 100vh;
+}
